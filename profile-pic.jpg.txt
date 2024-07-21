@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hiren's Professional Services</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+header {
+background-color: #4CAF50;
+color: white;
+padding: 1rem;
+text-align: center;
+}
+nav {
+display: flex;
+justify-content: center;
+background-color: #333;
+}
+nav a {
+color: white;
+padding: 1rem;
+text-decoration: none;
+text-align: center;
+}
+nav a:hover {
+background-color: #575757;
+}
+.container {
+padding: 2rem;
+}
+.section {
+margin-bottom: 2rem;
+background-color: white;
+padding: 2rem;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+text-align: center;
+padding: 1rem;
+background-color: #333;
+color: white;
+}
+.profile-pic {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 1rem;
+}
+.services-ad {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.service-item {
+flex: 1;
+margin: 1rem;
+padding: 1rem;
+background-color: #f9f9f9;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.service-item h3 {
+margin-top: 0;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Hiren's Professional Services</h1>
+</header>
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="container">
+<div id="about" class="section">
+<h2>About</h2>
+<img src="profile-pic.jpg" alt="Hiren's Profile Picture" class="profile-pic">
+<p>Hi, I'm Hiren. I am working as a loan services provider and also want to start mutual fund services. I am dedicated to helping individuals and businesses secure the financial support they need to achieve their goals.</p>
+</div>
+<div id="services" class="section">
+<h2>Services</h2>
+<div class="services-ad">
+<div class="service-item">
+<h3>Business Loans</h3>
+<p>Get the financial support you need to grow your business. Our business loans come with competitive rates and flexible terms.</p>
+</div>
+<div class="service-item">
+<h3>Unsecured Loans</h3>
+<p>No collateral? No problem! We offer unsecured loans to help you meet your financial needs without any hassle.</p>
+</div>
+<div class="service-item">
+<h3>Loan Services</h3>
+<p>We provide a range of loan services tailored to your requirements, ensuring you get the best deals and terms available.</p>
+</div>
+<div class="service-item">
+<h3>Mutual Fund Services</h3>
+<p>Start investing in mutual funds with our expert guidance. We help you choose the right funds to meet your investment goals.</p>
+</div>
+</div>
+</div>
+<div id="projects" class="section">
+<h2>Projects</h2>
+<p>Coming soon...</p>
+</div>
+<div id="contact" class="section">
+<h2>Contact</h2>
+<p>You can reach me at <a href="mailto:hiren@example.com">hiren@example.com</a> for any inquiries or further information about my services.</p>
+</div>
+</div>
+<footer>
+<p>&copy; 2024 Hiren's Professional Services</p>
+</footer>
+</body>
+</html>
